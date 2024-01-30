@@ -1,0 +1,41 @@
+.container2{
+    width: 90%;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.one{
+    background-color: brown;
+}
+.two {
+    background-color: yellow;
+    margin-bottom: 10px;
+    height: 49%
+}
+.three{
+    background-color: rgb(255, 5, 180);
+    height: 98%;
+}
+.four{
+    background-color: gray;
+    height: 98%;
+}
+.bottom{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    height: 49%;
+}
+.one, .right{
+    min-height: 300px;
+    border: 1px solid #000;
+}
+@media screen and (max-width:576px) {
+    .container2{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .bottom{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

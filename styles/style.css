@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    gap: 10px;
+    width: 90%;
+    margin: 50px auto;
+    color: #fff;
+}
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 400px;
+    background-color: black;
+    border-radius: 10px;
+}
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+@media screen  and (max-width:576px) {
+    .container {
+        flex-direction: column;
+    }
+    .left, .right {
+        width: 95%;
+        margin: auto;
+    }
+    .left{
+        height: 100px;
+    }
+    .right{
+        height: 400px;
+    }
+    
+}
+
+/* Second Task Styles */

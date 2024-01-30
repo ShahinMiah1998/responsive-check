@@ -1,0 +1,16 @@
+.image_box{
+    width: 90%;
+    margin: auto;
+    height: 700px
+}
+.image_box img{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+@media screen and (max-width:576px) {
+    .image_box img {
+        width: 70%;
+    }
+    
+}
